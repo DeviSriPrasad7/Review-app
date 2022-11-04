@@ -1,0 +1,26 @@
+/* Write your code here */
+.img {
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+}
+.list-container {
+  list-style-type: none;
+}
